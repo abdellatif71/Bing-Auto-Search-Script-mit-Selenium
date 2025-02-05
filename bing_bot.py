@@ -11,7 +11,7 @@ chrome_options.add_argument("--headless")  # Entfernen, wenn du das Fenster sehe
 chrome_options.add_argument("--disable-gpu")
 chrome_options.add_argument("--no-sandbox")
 
-
+# Pfad zu deinem Chromedriver (anpassen falls nötig)
 chromedriver_path = '/pfad/zu/deinem/chromedriver'  # Zum Beispiel '/usr/local/bin/chromedriver'
 
 # Dienst einrichten und Browser starten
