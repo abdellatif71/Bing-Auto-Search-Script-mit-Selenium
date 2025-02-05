@@ -16,12 +16,7 @@ Tab schließen und neuen öffnen: Nach jeder Suche wird der aktuelle Tab geschlo
 Installation von Chrome/Chromium und ChromeDriver
 Installiere Chromium:
 
-bash
-Copier
-Modifier
-sudo apt install chromium
-sudo apt install chromium-driver
-ChromeDriver manuell installieren (falls notwendig):
+
 
 Lade den neuesten ChromeDriver herunter:
 ChromeDriver Download
