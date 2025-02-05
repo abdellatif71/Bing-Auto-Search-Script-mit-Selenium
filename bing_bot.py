@@ -24,7 +24,7 @@ for i in range(35):  # Anzahl der Suchen
     term = random.choice(search_terms)  # Zufälligen Begriff wählen
     url = f"https://www.bing.com/search?q={term}"
     
-    driver.get(url)  # Seite im Browser öffnen
+    driver.get(url)  
     time.sleep(random.randint(4, 7))  # 4-7 Sekunden warten
     
 
