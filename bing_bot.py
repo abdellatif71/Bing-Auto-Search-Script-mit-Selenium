@@ -27,10 +27,10 @@ for i in range(35):  # Anzahl der Suchen
     driver.get(url)  # Seite im Browser öffnen
     time.sleep(random.randint(4, 7))  # 4-7 Sekunden warten
     
-    # Tab schließen und neuen öffnen
+
     driver.execute_script("window.open('');")
     driver.close()
     driver.switch_to.window(driver.window_handles[0])
 
-# Am Ende den Browser schließen
+
 driver.quit()
